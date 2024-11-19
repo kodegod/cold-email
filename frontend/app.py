@@ -3,7 +3,7 @@ import requests
 import os
 
 # Backend URL
-backend_url = os.getenv("API_URL", "http://localhost:8000")
+backend_url = "https://cold-email-52xl.onrender.com"
 
 st.title("EmailGenie: AI-Powered Cold Email Generator")
 
