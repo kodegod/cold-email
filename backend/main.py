@@ -13,6 +13,10 @@ load_dotenv()
 
 app = FastAPI()
 
+@app.get("/")
+def read_root():
+    return {"message": "Welcome to EmailGenie Backend"}
+
 # OpenAI API Key Setup
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 openai.api_key = OPENAI_API_KEY
@@ -70,3 +74,8 @@ class UserProfile(Base):
 
 # Create database tables
 Base.metadata.create_all(bind=engine)
+
+if __name__ == "__main__":
+    import uvicorn
+    logger.info("Starting the FastAPI server")
+    uvicorn.run(app, host="0.0.0.0", port=8000)
