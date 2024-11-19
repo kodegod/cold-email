@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import os
 
 # Backend URL
 backend_url = os.getenv("API_URL", "http://localhost:8000")
