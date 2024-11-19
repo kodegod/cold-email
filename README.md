@@ -1,6 +1,6 @@
-# EmailGenie: AI-Powered Cold Email Generator
+# [EmailGenie: AI-Powered Cold Email Generator](https://cold-email-sarthi.streamlit.app/)
 
-**EmailGenie** is a simple yet powerful tool designed to streamline the creation of personalized cold outreach emails for businesses, job seekers, and freelancers. By leveraging OpenAI's GPT-3.5, this project allows users to quickly generate and send professional emails tailored to their specific needs.
+**[EmailGenie](https://cold-email-sarthi.streamlit.app/)** is a simple yet powerful tool designed to streamline the creation of personalized cold outreach emails for businesses, job seekers, and freelancers. By leveraging OpenAI's GPT-3.5, this project allows users to quickly generate and send professional emails tailored to their specific needs.
 
 ---
 
