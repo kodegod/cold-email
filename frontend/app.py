@@ -1,10 +1,8 @@
 import streamlit as st
 import requests
 
-const API_URL = process.env.REACT_APP_API_URL
-
 # Backend URL
-backend_url = API_URL
+backend_url = os.getenv("API_URL", "http://localhost:8000")
 
 st.title("EmailGenie: AI-Powered Cold Email Generator")
 
